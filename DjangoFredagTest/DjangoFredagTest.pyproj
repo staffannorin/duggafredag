@@ -40,6 +40,7 @@
     <Compile Include="DjangoFredagTest\settings.py" />
     <Compile Include="DjangoFredagTest\urls.py" />
     <Compile Include="DjangoFredagTest\wsgi.py" />
+    <Compile Include="ptvs_virtualenv_proxy.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
@@ -54,6 +55,8 @@
     <Folder Include="DjangoFredagTest\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".deployment" />
+    <Content Include="deploy.cmd" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
