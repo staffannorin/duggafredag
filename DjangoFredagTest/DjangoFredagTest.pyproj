@@ -6,6 +6,7 @@
     <RootNamespace>DjangoFredagTest</RootNamespace>
     <InterpreterId>{21519c2f-7219-4091-8439-f5c408cc8e0f}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
+    <NameOfLastUsedPublishProfile>DuggaFredagWebApp-development - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -55,8 +56,10 @@
     <Folder Include="DjangoFredagTest\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="DuggaFredagWebApp-development - Web Deploy.pubxml" />
     <Content Include=".deployment" />
     <Content Include="deploy.cmd" />
+    <None Include="DuggaFredagWebApp - Web Deploy.pubxml" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
