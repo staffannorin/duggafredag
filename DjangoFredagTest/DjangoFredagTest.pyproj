@@ -60,6 +60,7 @@
     <Content Include=".deployment" />
     <Content Include="deploy.cmd" />
     <None Include="DuggaFredagWebApp - Web Deploy.pubxml" />
+    <Content Include="handler.fcgi" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
