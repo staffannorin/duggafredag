@@ -7,6 +7,7 @@
     <InterpreterId>{21519c2f-7219-4091-8439-f5c408cc8e0f}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
     <NameOfLastUsedPublishProfile>DuggaFredagWebApp-development - Web Deploy</NameOfLastUsedPublishProfile>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -123,7 +124,13 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>True</UseCustomServer>
           <CustomServerUrl>http://localhost</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
@@ -147,7 +154,7 @@
           <StartWorkingDirectory>
           </StartWorkingDirectory>
           <EnableENC>False</EnableENC>
-          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+          <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>
