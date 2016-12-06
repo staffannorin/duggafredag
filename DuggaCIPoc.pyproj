@@ -56,6 +56,7 @@
   <ItemGroup>
     <Content Include=".deployment" />
     <Content Include="bower.json" />
+    <Content Include="handler.fcgi" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
