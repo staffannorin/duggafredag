@@ -187,6 +187,6 @@ exit /b 1
 :end
 endlocal
 
-
+mkdir staffan
 
 echo Finished successfully.
