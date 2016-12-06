@@ -54,6 +54,8 @@
     <Folder Include="DuggaCIPoc\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".deployment" />
+    <Content Include="bower.json" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
@@ -84,6 +86,8 @@
     <Content Include="app\templates\app\layout.html" />
     <Content Include="app\templates\app\login.html" />
     <Content Include="app\templates\app\loginpartial.html" />
+    <Content Include="web.config" />
+    <None Include="web.debug.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.mht">
