@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'DjangoDuggatest2.wsgi.application'
+WSGI_APPLICATION = 'DuggaCIPoc.wsgi.application'
 
 
 # Database
